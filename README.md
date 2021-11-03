@@ -1,1 +1,3 @@
-# Laureena
+# Laureena: Board Games
+## Project Overview
+We have recently found some data on board games and decided to work on this topic because board game data is interesting and fun to work on with all the different ways in which people win and think about these games. Something that is different in board game data compared to other online games is how raw it can be. With online games, we only end up with data created through the technology itself. However, with board games, the data that we collect are all non-technological (other than the process of putting raw data into the dataset that we have). Data that can be non-technological are the literal averages of ratings from real life people.
