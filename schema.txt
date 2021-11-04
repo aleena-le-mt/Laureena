@@ -1,0 +1,20 @@
+games
+-
+ID pk fk - mechanics.ID
+game_name varchar
+Year_Published year
+Min_players int
+max_players int
+play_time int
+min_age int
+users_rated int
+rating_average dec(3,2)
+BGG_rank int
+Complexity_average dec(3,2)
+owned_users int
+domains varchar
+
+mechanics
+-
+ID pk
+Mechanics varchar
