@@ -43,16 +43,9 @@ The accuracy scores of the these files were not high enough and so she ended up 
 - Multiple_linear_regression_model.ipynb
 
 ### Description of Model
+This is a scatterplot of the correlation between actual rating averages from our board game data and the predicted rating averages. The way that this model works is that it compares actual and predicted rating averages. The reason why this model was initially chosen was because its accuracy is the best out of all the others that were done. This model has an accuracy of 70% and the statistics included in analysis is mainly the rating averages from our data. The reason why our statistic is average ratings is because it is one of the only statistical data that seems best to analyze so far together with complexity.
+
 <img width="442" alt="Multiple_linear_regression_model" src="https://user-images.githubusercontent.com/85929254/141708883-963de71d-64fb-4c03-b47c-b724a408ff51.png">
-This is a scatterplot of the correlation between actual rating averages from our board game data and the predicted rating averages.
-How does it work?
-- It compares actual and predicted rating averages.
-Why this specific model?
-- This model was initially chosen because its accuracy is the best out of all the others that were done.
-What is the model's accuracy?
-- The model’s accuracy is 70%.
-What stats are being included in analysis and why?
-- The only statistic involved in this model specifically is mainly the rating averages from our data, it is one of the only data so far that seemed best to analyze together with complexity.
 
 ### Pre-Processing
 The Processes Involved for Pre-Processing:
