@@ -39,7 +39,7 @@ Initially Laura took the dataframe trying to form a model with four files:
 - mlr_predict_average_rating_with_db.ipynb
 - mlr_predict_complexity_wtih_db.ipynb
 
-The accuracy scores of the these files were not high enough and so she ended up making another file with a model that we will be mainly talking about for this segment:
+The accuracy scores of the these files were not high enough and so she ended up making another file with a model that we will be talking about for this segment:
 - Multiple_linear_regression_model.ipynb
 
 ### Description of Model
