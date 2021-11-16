@@ -71,8 +71,5 @@ The Processes Involved for Pre-Processing:
 ### Accuracy
 After pre-processing, we found out that the accuracy of this model is 70% which is pretty accurate and precise, showing that the sensitivy is not too high.
 
-### Conclusion
-After refining and looking through what Laura did, I came down with a conclusion. According to our data, there is already an actual rating average. Therefore, I concluded that there is no need to get a predicted rating average when we already have the actual rating average from our data.
-
 ### If There Was More Time
-Right now, we have actual and predicted rating averages, but this is not something to analyze because we already have the actual rating averages to use. Since this is the case, something that I would have done was help with finding more stories from our data. What I mean by this is I would help Laura investigate other data that may have a possible correlation with average ratings that may have a high enough accuracy to analyze.
+Something that I would have done was help with finding more stories from our data. What I mean by this is I would help Laura investigate other data that may have a possible correlation with average ratings that may have a high enough accuracy to analyze.
