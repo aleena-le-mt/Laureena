@@ -1,9 +1,5 @@
 config.py
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 982706206fa60c5ce4f7b916c7d8af03d721e4b9
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
