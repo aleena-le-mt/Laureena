@@ -6,6 +6,7 @@
 5. Click "Save"
 6. Create a config.py file that contains "db_password = 'YOUR PASSWORD for PGADMIN'"
 7. Run all cells in "Sheena-DBCleanup" jupyter notebook. (If you get a "psycopg2 not found" error while running the notebook, go back into your terminal and run "pip install psycopg2-binary" then try again)
+
 # Laureena: Board Games
 # Board Games
 ## Segment 1 - Getting Started
@@ -73,3 +74,32 @@ After pre-processing, we found out that the accuracy of this model is 70% which 
 
 ### If There Was More Time
 Something that I would have done was help with finding more stories from our data. What I mean by this is I would help Laura investigate other data that may have a possible correlation with average ratings that may have a high enough accuracy to analyze.
+
+## Segment 3 - Visualizations
+### Project Overview
+This week, we focused on visualizations and how to make it interactive on Tableau. The data that we are using for these visualizations is the correlation between the games' rating averages and complexity averages of our domain and comparing it with the other domains that we have. When we say domains, we mean the types of games that will be shown in our interactive visualzation:
+- Abstract Games
+- Children's games
+- Customizable Games
+- Family Games
+- Party Games
+- Strategy Games
+- Thematic Games
+- Wargames
+
+### Purpose
+The whole point of the work for this week is making sure that our visualization data has any correlation and figuring out what we need to separate and/or put together in order to see this correlation between average ratings, complexity averages, and our domains clearly. On top of that of all that, we needed to figure a way to make it all interactive.
+
+### Questions To Answer
+Questions that we hope to answer from our visualizations:
+- What is the correlation between complexity averages and rating averages in Strategy Games?
+- What is the correlation between complexity averages and rating averages in Abstract Games?
+- What is the difference between the the correlation in Strategy Games and Abstract Games?
+- Do people prefer Strategy Games or Abstract Games?
+- Which type of game do people like the most out of all the games that we have?
+
+### Challenge Summary
+In the beginning, we had trouble thinking about how to turn our visualization with so many different specific game names attached together with their game types. Since this was the case, Sheena was trying to figure out how to condense these games into their own domains. To put it in simple words, how to seperate thes game types and condense them into their own domain. This was something that was solved through the grouping function on Tableau where you would select the games with the same game types and group it altogether. After that, we were able to select the different game types and look at the relationship between rating averages and complexity averages in these different domains and compare these domains with the other domains that we have. The only problem that we have now is downloading the desktop version of Tableau before Sheena's version of Tableau ends.
+
+### If There Was More Time
+If there was more time, I would try to get the pictures for these visualization. The only problem with this is that I need to gain access to the Tableau visualizations that Sheena has made to further explain what these visualizations look like.
