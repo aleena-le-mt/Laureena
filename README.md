@@ -103,3 +103,7 @@ In the beginning, we had trouble thinking about how to turn our visualization wi
 
 ### If There Was More Time
 If there was more time, I would try to get the pictures for these visualization. The only problem with this is that I need to gain access to the Tableau visualizations that Sheena has made to further explain what these visualizations look like.
+
+### Google Slides Outline
+[Laureena Outline - Board Games.pdf](https://github.com/aleena-le-mt/Laureena/files/7585865/Laureena.Outline.-.Board.Games.pdf)
+
