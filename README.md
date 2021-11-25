@@ -104,3 +104,5 @@ If there was more time, I would try to get the pictures for these visualization.
 ### Google Slides Outline
 [Laureena Outline - Board Games.pdf](https://github.com/aleena-le-mt/Laureena/files/7585865/Laureena.Outline.-.Board.Games.pdf)
 
+### Tableau Public DashBoards
+https://public.tableau.com/app/profile/sheena.strohmayer/viz/BoardGames_16378156604150/BoardGames
