@@ -19,7 +19,7 @@ The purpose of this project is to analyze the various data points presented in t
 ### Resources
 - Raw Data: https://www.kaggle.com/andrewmvd/board-games/version/2
 - Data Source: BoardGameGeek.com
-- Software: Excel 365, Python 3.6.1
+- Software: Excel 365, Python 3.6.1, Tableau Desktop 2021.3, Tableau Public 2021.1
 
 ### Description & Links of Datasource
 The website "BoardGameGeek.com" allows users to rank board games on a scale of 1-10, and the site presents an average rating based on those individual ratings. This data is a collection of all ranked games in the BGG database.
