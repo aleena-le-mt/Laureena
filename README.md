@@ -38,9 +38,6 @@ Things we had trouble with:
 - Getting our data into pgAdmin because when we tried running the data in Jupyter Notebook, there was an error saying "psycopg2" does not exist. We were able to resolve this by putting in "pip install psycopg2-binary" into the pythondata terminal that we used to open Jupyter Notebook. 
 - The first learning model produced predictions that were not within a normal range of the other predictions or the dataset "Rating Averages". The describe function used on features showed "Years Published" had values in the negative such as -3500. All data with "Years Published" before 1800 was removed before training and testing the model. The new dataframe produced a new scatter plot without extreme outliers.
 
-### Communication Protocols
-We reach out to each other on Slack and decided on a day and time in which we all agreed to meet up on each week from now on, 3PM on Fridays. Whenever a question arises, we would ask eachother and if we all end up not knowing the answer, then we ask our captain, Savannah.
-
 ## Segment 2 - Refining Model
 ### Project Overview
 Initially Laura took the dataframe trying to form a model with four files:
