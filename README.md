@@ -19,7 +19,7 @@ The purpose of this project is to analyze the various data points presented in t
 ### Resources
 - Raw Data: https://www.kaggle.com/andrewmvd/board-games/version/2
 - Data Source: BoardGameGeek.com
-- Software: Excel 365, Python 3.6.1
+- Software: Excel 365, Python 3.6.1, Tableau Desktop 2021.3, Tableau Public 2021.1
 
 ### Description & Links of Datasource
 The website "BoardGameGeek.com" allows users to rank board games on a scale of 1-10, and the site presents an average rating based on those individual ratings. This data is a collection of all ranked games in the BGG database.
@@ -37,9 +37,6 @@ Things we had trouble with:
 - Finding a dataset that is reliable and interesting to work on. 
 - Getting our data into pgAdmin because when we tried running the data in Jupyter Notebook, there was an error saying "psycopg2" does not exist. We were able to resolve this by putting in "pip install psycopg2-binary" into the pythondata terminal that we used to open Jupyter Notebook. 
 - The first learning model produced predictions that were not within a normal range of the other predictions or the dataset "Rating Averages". The describe function used on features showed "Years Published" had values in the negative such as -3500. All data with "Years Published" before 1800 was removed before training and testing the model. The new dataframe produced a new scatter plot without extreme outliers.
-
-### Communication Protocols
-We reach out to each other on Slack and decided on a day and time in which we all agreed to meet up on each week from now on, 3PM on Fridays. Whenever a question arises, we would ask eachother and if we all end up not knowing the answer, then we ask our captain, Savannah.
 
 ## Segment 2 - Refining Model
 ### Project Overview
@@ -77,7 +74,7 @@ Something that I would have done was help with finding more stories from our dat
 
 ## Segment 3 - Visualizations
 ### Project Overview
-This week, we focused on visualizations and how to make it interactive on Tableau. The data that we are using for these visualizations is the correlation between the games' rating averages and complexity averages of our domain and comparing it with the other domains that we have. When we say domains, we mean the types of games that will be shown in our interactive visualzation:
+This week, we focused on visualizations and how to make it interactive on Tableau. The data that we are using for these visualizations is the correlation between the games' rankings and complexity averages of our domains and comparing those domains with each other. When we say domains, we mean the types of games that will be shown in our interactive visualzation:
 - Abstract Games
 - Children's games
 - Customizable Games
@@ -86,6 +83,10 @@ This week, we focused on visualizations and how to make it interactive on Tablea
 - Strategy Games
 - Thematic Games
 - Wargames
+
+### Interactive Visualization
+<img width="842" alt="Main_Visual_Graph" src="https://user-images.githubusercontent.com/85929254/143804918-8e8409f0-955a-4015-ad64-d0307542d561.png">
+The main thing that makes this visualization interactive is clicking on the different game typs under Domain (Groups). By doing this, we will see and understand what ranking people give to these game types depending on how hard these games are (how complex they are).
 
 ### Purpose
 The whole point of the work for this week is making sure that our visualization data has any correlation and figuring out what we need to separate and/or put together in order to see this correlation between average ratings, complexity averages, and our domains clearly. On top of that of all that, we needed to figure a way to make it all interactive.
@@ -99,11 +100,13 @@ Questions that we hope to answer from our visualizations:
 - Which type of game do people like the most out of all the games that we have?
 
 ### Challenge Summary
-In the beginning, we had trouble thinking about how to turn our visualization with so many different specific game names attached together with their game types. Since this was the case, Sheena was trying to figure out how to condense these games into their own domains. To put it in simple words, how to seperate these game types and condense them into their own domain. This was something that was solved through the grouping function on Tableau where you would select the games with the same game types and group it altogether. After that, we were able to select the different game types and look at the relationship between rating averages and complexity averages in these different domains and compare these domains with the other domains that we have. The only problem that we have now is downloading the desktop version of Tableau before Sheena's version of Tableau ends to show these visualizations when we present.
+In the beginning, we had trouble thinking about how to turn our visualization with so many different specific game names attached together with their game types. Since this was the case, Sheena was trying to figure out how to condense these games into their own domains. To put it in simple words, how to seperate these game types and condense them into their own domain. This was something that was solved through the grouping function on Tableau where you would select the games with the same game types and group it altogether. After that, we were able to select the different game types and look at the relationship between rating averages and complexity averages in these different domains and compare these domains with the other domains that we have. The only problem that we had was downloading the desktop version of Tableau before Sheena's version of Tableau ends to show these visualizations when we present. This was solved when both Laura and I was able to get Tableau Desktop and download the visuals.
 
 ### If There Was More Time
-If there was more time, I would try to get the pictures for these visualization. The only problem with this is that I need to gain access to the Tableau visualizations that Sheena has made to further explain what these visualizations look like.
+If there was more time, I would try to delve deeper into what Laura's models have in common with these visuals because Laura has recently made more new machine learning models that I have yet to look into.
 
 ### Google Slides Outline
 [Laureena Outline - Board Games.pdf](https://github.com/aleena-le-mt/Laureena/files/7585865/Laureena.Outline.-.Board.Games.pdf)
 
+### Tableau Public DashBoards
+https://public.tableau.com/app/profile/sheena.strohmayer/viz/BoardGames_16378156604150/BoardGames
