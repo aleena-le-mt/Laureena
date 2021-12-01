@@ -121,6 +121,7 @@ If there was more time, we would try to see if there is a possible higher accura
 <img width="785" alt="RatingvsComplexityAverage" src="https://user-images.githubusercontent.com/85929254/144153200-cb74e20f-cc04-4c0a-99de-b88d170ce2d5.png">
 
 ### Final Google Slides
+[Laureena - Final Board Games.pdf](https://github.com/aleena-le-mt/Laureena/files/7632189/Laureena.-.Final.Board.Games.pdf)
 
 
 ### Tableau Public DashBoards
