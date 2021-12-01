@@ -110,3 +110,18 @@ If there was more time, I would try to delve deeper into what Laura's models hav
 
 ### Tableau Public DashBoards
 https://public.tableau.com/app/profile/sheena.strohmayer/viz/BoardGames_16378156604150/BoardGames
+
+## Segment 4 - Conclusion
+### Conclusion
+In general, the higher the rating average is, the higher the complexity average. As you may not be able to tell already, we decided to switch to using complexity average vs rating average because there was a more prominant correlation seen compared to complexity average vs ranking. Now for our main question, can we predict rating average based on other game variables? We cant predict rating average itself, but we can predict whether or not rating average is above or below average. From looking at all this use average rating data, we have decided that it is useful and important for mainly people who produce these types of board game. They would use this data to improve their board games and possibly create a different game with better features that are similar to their games that are included in this data. The main additional observation that we have is that the domain (game category) cannot be reasonably predicted using other game variables such as min/max players, complexity, average ratings, etc.
+
+
+### If There Was More Time
+If there was more time, we would try to see if there is a possible higher accuracy score for logistics regression from the visual with just the complexity average variable and the rating average compared to using all of the game variables since this scatter plot has a prominant correlation to look at. With more time, we can find a mroe accurate way to get rating average if we look into all of the available gaming variable, specifically the mechanics.
+<img width="785" alt="RatingvsComplexityAverage" src="https://user-images.githubusercontent.com/85929254/144153200-cb74e20f-cc04-4c0a-99de-b88d170ce2d5.png">
+
+### Final Google Slides
+
+
+### Tableau Public DashBoards
+https://public.tableau.com/app/profile/sheena.strohmayer/viz/BoardGames_16378156604150/BoardGames
